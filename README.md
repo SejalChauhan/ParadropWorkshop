@@ -14,8 +14,10 @@ wget http://pages.cs.wisc.edu/~sejalc/pdinstall_0.1.0_all.snap
 ```
 
 For deploying snaps:
+```
 snappy-remote --url=ssh://1<ip addr>:22 install dnsmasq_2.74_all.snap
 snappy-remote --url=ssh://1<ip addr>:22 install hostapd_2.4_all.snap
 sudo snappy install docker #run in router
 snappy-remote --url=ssh://1<ip addr>:22 install paradrop_0.1.0_all.snap
 snappy-remote --url=ssh://1<ip addr>:22 install pdinstall_0.1.0_all.snap 
+```

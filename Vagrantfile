@@ -78,5 +78,6 @@ Vagrant.configure(2) do |config|
      sudo -H pip install --upgrade ndg-httpsclient
      sudo ./pdbuild.sh update-tools
      git clone https://github.com/ParadropLabs/Example-Apps.git
+     sudo apt-get install snappy-tools
    SHELL
 end
